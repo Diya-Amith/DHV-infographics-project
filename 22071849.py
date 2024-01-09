@@ -148,4 +148,4 @@ plt.figtext(0.68, 0.82, '> A : Inflation rates reflect the percentage increase i
 student_name = plt.figtext(0.8, 0.96, 'Student Name: Diya Amith Kodappully\nStudent ID: 22071849',
                            color='#DEF2F1', fontsize=13, fontfamily='Berlin Sans FB Demi', ha='left', va='top')
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-plt.savefig("123.png", dpi=300, bbox_inches='tight')
+plt.savefig("22071849.png", dpi=300, bbox_inches='tight')
