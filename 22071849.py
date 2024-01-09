@@ -13,7 +13,7 @@ years = [2002, 2004, 2006, 2008, 2010]
 dataset_selected = economy_dataset[economy_dataset['Country Name'].isin(
     countries) & economy_dataset['Year'].isin(years)]
 
-# Create a figuree with required size
+# Create a figure with required size
 AX = plt.figure(figsize=(16, 9), facecolor='#17252A')
 
 
@@ -111,11 +111,11 @@ ax3 = plt.subplot(2, 3, 4)
 ax3.set_facecolor('#17252A')  # Set background color
 
 # Filter data for Chile
-georgia_data = economy_dataset[(economy_dataset['Country Name'] == 'Chile')]
+chile_data = economy_dataset[(economy_dataset['Country Name'] == 'Chile')]
 
 # Plotting using seaborn
 sns.barplot(x='Consumer price index (2010 = 100)', y='Year',
-            data=georgia_data, palette='BuPu', orient='h')
+            data=chile_data, palette='BuPu', orient='h')
 
 # Set title, labels, and formatting
 plt.xlabel('Consumer price index (2010 = 100)',
